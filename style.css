@@ -1,0 +1,237 @@
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 1rem 2rem;
+    background-color: #343a40;
+}
+
+.navbar a {
+    color: #000000 !important;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Home Section */
+#home {
+    background: #6c757d;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#home img {
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#home .btn {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+/* About Section */
+#about {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+#skills .progress {
+    height: 15px;
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+}
+
+#skills .progress-bar {
+    border-radius: 50px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 4rem 0;
+    background-color: #fff;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+}
+
+#projects .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+#projects .card img {
+    border-radius: 10px;
+}
+
+#projects .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: bold;
+}
+
+#projects .card-text {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 2rem;
+}
+
+#contact .form-control {
+    border-radius: 30px;
+    font-size: 1.1rem;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    background-color: #f1f1f1;
+    border: 1px solid #ced4da;
+}
+
+#contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+#contact button {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* Reset padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Animasi untuk fade-in */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animasi untuk slide-in */
+.slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animasi untuk slide-in dari kanan */
+.slide-in-right {
+    transform: translateX(100%);
+    opacity: 0;
+    animation: slideInRight 1s forwards;
+}
+
+@keyframes slideInRight {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
